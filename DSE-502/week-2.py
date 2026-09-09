@@ -15,7 +15,7 @@ class GeoTurtle(Turtle):
         self.hideturtle()
         self.speed(10)
 
-    def move_turtle(self):
+    def silent_turtle(self):
         self.penup()
         self.hideturtle()
 
@@ -23,7 +23,7 @@ class GeoTurtle(Turtle):
         self.color(random.choice(COLORS))
         self.fillcolor(random.choice(COLORS))
         self.width(randint(1, 8))
-        self.move_turtle()
+        self.silent_turtle()
         self.goto(x=-250, y=200)
         self.pendown()
         self.begin_fill()
@@ -37,7 +37,7 @@ class GeoTurtle(Turtle):
         self.color(random.choice(COLORS))
         self.fillcolor(random.choice(COLORS))
         self.width(randint(1, 8))
-        self.move_turtle()
+        self.silent_turtle()
         self.goto(x=-100, y=200)
         self.pendown()
         self.begin_fill()
@@ -52,7 +52,7 @@ class GeoTurtle(Turtle):
         self.color(random.choice(COLORS))
         self.fillcolor(random.choice(COLORS))
         self.width(randint(1, 8))
-        self.move_turtle()
+        self.silent_turtle()
         self.goto(x=150, y=200)
         self.pendown()
         self.begin_fill()
@@ -65,7 +65,7 @@ class GeoTurtle(Turtle):
     def draw_A(self):
         self.color(random.choice(COLORS))
         self.width(randint(1, 8))
-        self.move_turtle()
+        self.silent_turtle()
         self.goto(x=100, y=0)
         self.pendown()
         self.left(120)
